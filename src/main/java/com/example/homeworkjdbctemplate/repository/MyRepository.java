@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 @Repository
 public class MyRepository {
-    private final String LINE = "myScript.sql";
+    private static final String LINE = "myScript.sql";
 
     @Autowired
     NamedParameterJdbcTemplate namedParameterJdbcTemplate;
